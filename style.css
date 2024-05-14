@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+
+html, body{
+height: 100%;
+width: 100%;
+}
+
+#bg{
+    height: 100%;
+    width: 100%;
+    background-image: url(istockphoto-1410724312-1024x1024.jpg);
+    background-size: cover;
+}
+
+h1
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 190px;
+    font-weight: 100;
+    mix-blend-mode: difference;
+    color: white;
+    font-style: italic;
+}
